@@ -31,6 +31,36 @@
   --color-border: #333333;    --color-muted: #a3a3a3;
 }
 
+[data-theme='quantum'] {
+  --color-bg: #050505;
+  --color-surface: #121212;
+  --color-text: #ffffff;
+  --color-primary: #a855f7; /* Electric Purple */
+  --color-secondary: #22c55e; /* Cyber Lime */
+  --color-border: #262626;
+}
+
+/* 7. Paper & Ink (High-Contrast Academic) */
+[data-theme='paper'] {
+  --color-bg: #ffffff;
+  --color-surface: #f3f4f6;
+  --color-text: #000000;
+  --color-primary: #000000;
+  --color-secondary: #6b7280;
+  --color-border: #000000;
+}
+
+/* 8. Deep Aurora (Glass/Ocean Security) */
+[data-theme='aurora'] {
+  --color-bg: #022c22; /* Deep Teal */
+  --color-surface: #064e3b;
+  --color-text: #ecfdf5;
+  --color-primary: #14b8a6; /* Aurora Teal */
+  --color-secondary: #fbbf24; /* Sunset Gold */
+  --color-border: #065f46;
+}
+
+
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
