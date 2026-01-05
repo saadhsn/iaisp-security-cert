@@ -1,16 +1,26 @@
-# React + Vite
+# IAISP Security Certification Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website for **IAISP – International Association for Information Security Professionals**.
 
-Currently, two official plugins are available:
+This platform provides information about IAISP security certifications, programs, and future credential verification services.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
+- React
+- Vite
+- Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features (Current & Planned)
+- Public certification listings
+- Certification detail pages
+- About IAISP
+- Contact page
+- Certificate verification (planned)
+- Responsive, security-focused design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧑‍💻 Local Development
