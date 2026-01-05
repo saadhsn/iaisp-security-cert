@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* THEME DEFINITIONS */
+:root, [data-theme='slate'] {
+  --color-bg: #020617;        --color-surface: #0f172a;
+  --color-text: #f8fafc;      --color-primary: #6366f1;
+  --color-border: #1e293b;    --color-muted: #94a3b8;
+}
+
+[data-theme='frost'] {
+  --color-bg: #f8fafc;        --color-surface: #ffffff;
+  --color-text: #0f172a;      --color-primary: #2563eb;
+  --color-border: #e2e8f0;    --color-muted: #64748b;
+}
+
+[data-theme='merit'] {
+  --color-bg: #fcfcfa;        --color-surface: #ffffff;
+  --color-text: #1f2937;      --color-primary: #064e3b;
+  --color-border: #e5e7eb;    --color-muted: #4b5563;
+}
+
+[data-theme='safe'] {
+  --color-bg: #ffffff;        --color-surface: #f1f5f9;
+  --color-text: #231f20;      --color-primary: #005cb9;
+  --color-border: #cbd5e1;    --color-muted: #475569;
+}
+
+[data-theme='gold'] {
+  --color-bg: #141414;        --color-surface: #1f1f1f;
+  --color-text: #ffffff;      --color-primary: #d4c3a3;
+  --color-border: #333333;    --color-muted: #a3a3a3;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  margin: 0;
+}
+
+/* Reusable Utilities */
+.brand-gradient {
+  background: linear-gradient(135deg, var(--color-primary), #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
